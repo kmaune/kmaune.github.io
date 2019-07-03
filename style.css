@@ -1,0 +1,225 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway" 
+}
+
+body {
+    background-color: #f2f2f2
+}
+
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.fixed .navbar  { position: fixed; top: 60px; }
+
+.navbar{
+    background-color: #222222;
+    border: 0px;
+    position: absolute;
+    top: 100%;
+    right: 3.8%;
+    width: 110px;
+    z-index: 999;
+}
+
+.navbar .navbar-collapse { 
+    padding: 0px;
+    margin-left: -10px; 
+    max-height: none; 
+}
+
+
+.navbar .nav > li { 
+    display: block; 
+    height: 80px;
+    text-align: center;
+    font-size: 1em; 
+} 
+
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { 
+    color: #999999; 
+}
+
+#navbarButton {
+    background-color: #222222;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+#topContainer {
+    background-image: url('images/veryblurred.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    text-shadow: -0.3px -0.3px 0 #73736d, 0.3px -0.3px 0 #73736d, -0.3px 0.3px 0 #73736d, 0.3px 0.3px 0 #73736d;
+}
+
+#topRow {
+    margin-top: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#topRow h1 {
+    font-size: 3em;
+}
+
+#topRow h4, #topRow p {
+    font-size: 1.5em;
+}
+
+#topRow a {
+    color: #f2f2f2;
+}
+
+.center {
+    text-align: center;
+}
+
+#about-me {
+    background-color: #f2f2f2;
+    height: 20em;
+    padding-top: 3em;
+    overflow: auto;
+}
+
+#headshot {
+    padding-top: 3em;
+}
+
+#about-me img{
+    max-width: 100%;
+    height: auto;
+    width: 10em;
+    border: 2px solid lightgrey;
+    border-radius: 5em;
+    border-image: 
+    display: block;
+    vertical-align: middle;
+
+}
+
+#about-head{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #22A39F   
+}
+
+#about-text {
+    max-width: 100%;
+    height: auto;
+    padding-top: 0;
+    text-align: left;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#download {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5em;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #22A39F;
+}
+
+#download-link{
+    color: #22A39F;
+}
+
+#resume-wrapper{
+    background-color: #F3EFE0; 
+}
+
+#resume {
+    background-color: #F3EFE0;
+}
+
+#resume-head {
+    padding-top: 0.5em;
+    color: #22A39F;
+}
+
+#education, #experience, #volunteer {
+    color: #22A39F;
+    font-weight: bold; 
+}
+
+.degree, .position {
+    font-weight: bold;
+}
+
+.experience-header, .volunteer-header {
+    font-size: 1.1em;
+}
+
+#in-progress{
+    color: lightgrey;
+    background-color: #2C3E50;
+}
+
+#contact-info {
+    background-color: #434242;
+    height: 25em;
+    padding-top: 5em;
+    overflow: auto;
+}
+
+#contact-head {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#contact-hr {
+    background-color: #f2f2f2;
+}
+
+.contact-type{
+    font-family: "Raleway";
+    color: #f2f2f2;
+    font-size: 1.2em;
+    font-style: bold;
+}
+
+.tel, .mail {
+    color:#22A39F;
+}
+
+#address {
+    color: #FFFFF0;
+    font-size: 0.8em;
+}
+
+.social-link {
+    color:#22A39F;
+}
+
+.scroll-down { 
+    height: 50px; 
+    width:  72.5px; 
+    display: block; position: 
+    absolute; bottom: 0px; 
+    right: 5%; 
+    background-color: #222222; 
+    text-align: center; ]
+}
+
+.scroll-down fa { 
+    color: #FFFFFF; 
+    font-size: 30px; 
+    padding-right: 2px; 
+
+    animation-name: wiggle;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}  
