@@ -52,10 +52,11 @@ body {
 }
 
 #topContainer {
-    background: no-repeat center right fixed url(images/veryblurred2.jpg);
-    height: 400px;
+    background-image: url(images/veryblurred.jpg);
     width: 100%;
     background-size: 100% 100%;
+    background-position: center, right;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     color: #f2f2f2;
     text-shadow: -0.3px -0.3px 0 #73736d, 0.3px -0.3px 0 #73736d, -0.3px 0.3px 0 #73736d, 0.3px 0.3px 0 #73736d;
