@@ -57,6 +57,7 @@ body {
     background-image: url(images/veryblurred.jpg);
     width: 100%;
     background-size: 100% 100%;
+    background-position: center, center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #f2f2f2;
