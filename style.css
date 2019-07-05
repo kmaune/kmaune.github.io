@@ -52,6 +52,8 @@ body {
 }
 
 #topContainer {
+    display: block;
+    z-index: -10;
     background-image: url(images/veryblurred.jpg);
     width: 100%;
     background-size: 100% 100%;
