@@ -52,7 +52,7 @@ body {
 }
 
 #topContainer {
-    background-image: url('images/veryblurred.jpg');
+    background: no-repeat center right fixed url(images/veryblurred2.jpg);
     height: 400px;
     width: 100%;
     background-size: 100% 100%;
