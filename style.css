@@ -137,15 +137,19 @@ body {
     color: #22A39F;
 }
 
-#resume-wrapper{
+#resume-wrapper, #projects-wrapper {
     background-color: #F3EFE0; 
+}
+
+#projects-wrapper, #skills-wrapper {
+    padding-bottom: 1em;
 }
 
 #resume {
     background-color: #F3EFE0;
 }
 
-#resume-head {
+#resume-head, #skills-head, #projects-head {
     padding-top: 0.5em;
     color: #22A39F;
 }
@@ -225,3 +229,39 @@ body {
     animation-iteration-count: infinite;
     animation-direction: normal;
 }  
+
+
+.skill-list {
+    list-style-type: none; 
+    margin: 0 0 20px 0; 
+    padding: 0px;
+}
+
+.skill-list  li {
+    margin: 0 0 0.3em 0;
+}
+
+.skill-name{
+    display: inline-block; 
+    width: 60%;
+}
+
+.skill-score {
+    float: right;
+    color: #22A39F;
+}
+
+
+.project-name {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.project-link {
+    font-size: 0.8em;
+    color: black;
+}
+
+
+
